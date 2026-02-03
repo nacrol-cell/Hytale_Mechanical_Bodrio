@@ -1,0 +1,87 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Mechanical_LegsT3.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Armor_Mechanical_LegsT2"
+      },
+      {
+        "Quantity": 15,
+        "ItemId": "Mechanical_Alloy"
+      },
+      {
+        "Quantity": 60,
+        "ItemId": "Life_Gem"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "MechaWorkbench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Legs.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.375,
+    "Translation": [
+      -0.6,
+      -23.4
+    ]
+  },
+  "Model": "Items/Armors/Steel/Legs.blockymodel",
+  "Texture": "Items/Armors/Mechanical/texturemechanicalLegs3_default.png",
+  "Armor": {
+    "ArmorSlot": "Legs",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.01,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.01,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 2970,
+          "CalculationType": "Additive"
+        }
+      ]
+    },
+    "CosmeticsToHide": [
+      "Pants",
+      "Shoes"
+    ]
+  },
+  "MaxDurability": 3000,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Steel"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Quality": "Uncommon"
+}

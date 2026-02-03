@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Mechanical_HandsT4.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Armor_Mechanical_HandsT3"
+      },
+      {
+        "Quantity": 20,
+        "ItemId": "Mechanical_Alloy"
+      },
+      {
+        "Quantity": 80,
+        "ItemId": "Life_Gem"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "MechaWorkbench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/mechanicalHands.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.8,
+    "Translation": [
+      16.8,
+      -30
+    ]
+  },
+  "Model": "Items/Armors/Mechanical/mechanicalHands.blockymodel",
+  "Texture": "Items/Armors/Mechanical/mechanicaltextureHands_default.png",
+  "Armor": {
+    "ArmorSlot": "Hands",
+    "BaseDamageResistance": 0,
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.01,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.01,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 1990,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 4000,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Steel"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Quality": "Uncommon"
+}

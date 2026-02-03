@@ -1,0 +1,56 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.powerlessgem.name"
+  },
+  "Icon": "Icons/ItemsGenerated/powerlessgem.png",
+  "Quality": "Uncommon",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Resources/Ingredients/electricitygem.blockymodel",
+  "Texture": "Resources/Ingredients/Essence_Tectures/powerlessgem_Texture.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 0.8,
+  "Light": {
+    "Color": "#320",
+    "Radius": 1
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Recipe": {
+    "Input": [],
+    "OutputQuantity": 10,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tinkering"
+        ],
+        "Id": "MechaWorkbench",
+        "RequiredTierLevel": 1
+      }
+    ],
+    "TimeSeconds": 0
+  },
+  "MaxStack": 100000
+}

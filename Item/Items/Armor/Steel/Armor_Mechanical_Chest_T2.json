@@ -1,0 +1,86 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Armor_Mechanical_ChestT2.name"
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ItemId": "Armor_Mechanical_Chest"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "Mechanical_Alloy"
+      },
+      {
+        "Quantity": 40,
+        "ItemId": "Life_Gem"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "Id": "MechaWorkbench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/mechanicalChest.png",
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.5,
+    "Translation": [
+      0,
+      -14.4
+    ]
+  },
+  "Model": "Items/Armors/Mechanical/mechanicalChest.blockymodel",
+  "Texture": "Items/Armors/Mechanical/mechanicaltextureChest_default.png",
+  "Armor": {
+    "ArmorSlot": "Chest",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "Overtop"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.02,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.02,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 1960,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 2000,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Steel"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Quality": "Uncommon"
+}

@@ -1,0 +1,25 @@
+{
+  "Input": [
+    {
+      "ItemId": "Lifeless_Gem",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Life_Gem",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Life_Gem",
+      "Quantity": 1
+    }
+  ],
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "Gembench"
+    }
+  ],
+  "TimeSeconds": 4
+}
