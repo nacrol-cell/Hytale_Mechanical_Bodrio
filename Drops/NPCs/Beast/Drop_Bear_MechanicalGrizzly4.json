@@ -1,0 +1,49 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Mechanical_Alloy",
+              "QuantityMin": 2,
+              "QuantityMax": 4
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Electricity_Gem",
+              "QuantityMin": 15,
+              "QuantityMax": 20
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "Weight": 100,
+        "Containers": [
+          {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Life_Gem",
+              "QuantityMin": 15,
+              "QuantityMax": 20
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
